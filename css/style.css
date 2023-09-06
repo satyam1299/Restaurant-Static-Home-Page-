@@ -1,0 +1,230 @@
+body {
+    background-color: #ffffff;
+    opacity: 0.9;
+    background-image: linear-gradient(to right,#ffffff,#ffffff 20px,#cad2fffa 20px,#cad2fffa);
+    background-size: 60px 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("../images/bur1.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashed {
+    border: none;
+    height: 1px;
+    background: #fff;
+    background: repeating-linear-gradient(90deg,#fff,#fff 6px,transparent 6px, transparent 12px);
+}
+
+nav {
+    display: flex;
+    padding: 2px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-family: MS Reference Sans Serif;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.nav-right {
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    margin:2px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background: none;
+    color: white;
+}
+
+.fa-google {
+    background: none;
+    color: white;
+}
+
+.fa-facebook {
+    background: none;
+    color: white;
+}
+
+.fa-instagram {
+    background: none;
+    color: white;
+}
+
+.fa-twitter {
+    background: none;
+    color: white;
+}
+
+.fa-skype {
+    background: none;
+    color: white;
+}
+
+.fa-letter {
+    background: none;
+    color: white;
+}
+
+.fa-phone {
+    background: none;
+    color: white;
+}
+
+.fa-leaf {
+    background: none;
+    color: rgb(9, 139, 59);
+}
+.logo {
+    color: rgb(9, 139, 59);
+    font-family: MS Reference Sans Serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container2 {
+    font-family: Segoe Script;
+    color: white;
+}
+
+.container3 {
+    font-family: MS Reference Sans Serif;
+    color: white;
+}
+
+.btn {
+    color: rgb(9, 139, 59);
+    padding: 10px;
+}
+
+.fa-calender {
+    background: none;
+    color: black;
+}
+
+.fa-person {
+    background: none;
+    color: black;
+}
+
+.fa-comment {
+    background: none;
+    color: black;
+}
+
+.fa-phone {
+    color: black;
+}
+
+.separate {
+    font-family: MS Reference Sans Serif;
+    padding: 60px 60px;
+    padding-top: 60px;
+    padding-bottom: 500px;
+}
+
+.box1 {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.box2 {
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.box3 {
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.boxlabel {
+    font-family: MS Reference Sans Serif;
+    color: white;
+    font-size: 13px;
+}
+
+.btn2 {
+    color: rgb(9, 139, 59);
+    background: white;
+    border-color: rgb(9, 139, 59);
+    padding: 10px;
+}
+
+.btn3 {
+    color: white;
+    background: rgb(9, 139, 59);
+    border-color: rgb(9, 139, 59);
+    padding: 10px;
+}
+.btn4 {
+    color: white;
+    background: rgb(9, 139, 59);
+    border-color: rgb(9, 139, 59);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.hours {
+    color: white;
+    background-color: rgb(9, 139, 59);
+    font-family: MS Reference Sans Serif;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    
+}
+
+.details {
+    color: white;
+    background-color: black;
+    font-family: MS Reference Sans Serif;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
